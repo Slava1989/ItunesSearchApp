@@ -11,6 +11,11 @@
 		BA191E88289D8028002189D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E87289D8028002189D2 /* ContentView.swift */; };
 		BA191E8A289D802A002189D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA191E89289D802A002189D2 /* Assets.xcassets */; };
 		BA191E8D289D802A002189D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA191E8C289D802A002189D2 /* Preview Assets.xcassets */; };
+		BA191E97289D8061002189D2 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E96289D8061002189D2 /* Album.swift */; };
+		BA191E99289D80B7002189D2 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E98289D80B7002189D2 /* AlbumListViewModel.swift */; };
+		BA191E9B289D8349002189D2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E9A289D8349002189D2 /* Song.swift */; };
+		BA191E9D289D8352002189D2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E9C289D8352002189D2 /* Movie.swift */; };
+		BA191EA528A046EF002189D2 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191EA428A046EF002189D2 /* AlbumListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BA191E87289D8028002189D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA191E89289D802A002189D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA191E8C289D802A002189D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA191E96289D8061002189D2 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		BA191E98289D80B7002189D2 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		BA191E9A289D8349002189D2 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		BA191E9C289D8352002189D2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BA191EA428A046EF002189D2 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		BA191E84289D8028002189D2 /* ItunesSearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA191E95289D8051002189D2 /* Model */,
+				BA191E94289D8042002189D2 /* ViewModel */,
+				BA191E93289D8035002189D2 /* View */,
 				BA191E85289D8028002189D2 /* ItunesSearchAppApp.swift */,
 				BA191E87289D8028002189D2 /* ContentView.swift */,
 				BA191E89289D802A002189D2 /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				BA191E8C289D802A002189D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA191E93289D8035002189D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA191EA428A046EF002189D2 /* AlbumListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA191E94289D8042002189D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA191E98289D80B7002189D2 /* AlbumListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA191E95289D8051002189D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA191E96289D8061002189D2 /* Album.swift */,
+				BA191E9A289D8349002189D2 /* Song.swift */,
+				BA191E9C289D8352002189D2 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA191E99289D80B7002189D2 /* AlbumListViewModel.swift in Sources */,
 				BA191E88289D8028002189D2 /* ContentView.swift in Sources */,
+				BA191E9D289D8352002189D2 /* Movie.swift in Sources */,
 				BA191E86289D8028002189D2 /* ItunesSearchAppApp.swift in Sources */,
+				BA191E97289D8061002189D2 /* Album.swift in Sources */,
+				BA191E9B289D8349002189D2 /* Song.swift in Sources */,
+				BA191EA528A046EF002189D2 /* AlbumListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
