@@ -16,6 +16,7 @@
 		BA191E9B289D8349002189D2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E9A289D8349002189D2 /* Song.swift */; };
 		BA191E9D289D8352002189D2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191E9C289D8352002189D2 /* Movie.swift */; };
 		BA191EA528A046EF002189D2 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA191EA428A046EF002189D2 /* AlbumListView.swift */; };
+		BA2A2BEC28B2AF1B00B80966 /* AlbumSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A2BEB28B2AF1B00B80966 /* AlbumSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BA191E9A289D8349002189D2 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		BA191E9C289D8352002189D2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		BA191EA428A046EF002189D2 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		BA2A2BEB28B2AF1B00B80966 /* AlbumSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				BA191EA428A046EF002189D2 /* AlbumListView.swift */,
+				BA2A2BEB28B2AF1B00B80966 /* AlbumSearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				BA191E99289D80B7002189D2 /* AlbumListViewModel.swift in Sources */,
 				BA191E88289D8028002189D2 /* ContentView.swift in Sources */,
+				BA2A2BEC28B2AF1B00B80966 /* AlbumSearchView.swift in Sources */,
 				BA191E9D289D8352002189D2 /* Movie.swift in Sources */,
 				BA191E86289D8028002189D2 /* ItunesSearchAppApp.swift in Sources */,
 				BA191E97289D8061002189D2 /* Album.swift in Sources */,

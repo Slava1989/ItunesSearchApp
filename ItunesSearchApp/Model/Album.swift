@@ -20,14 +20,14 @@ struct Album: Codable, Identifiable {
     let artistID: Int
     let id: Int
     let amgArtistID: Int?
-    let artistName, collectionName, collectionCensoredName: String
+    var artistName, collectionName, collectionCensoredName: String
     let artistViewURL: String?
     let collectionViewURL: String
     let artworkUrl60, artworkUrl100: String
     let collectionPrice: Double?
     let collectionExplicitness: String
     let trackCount: Int
-    let copyright: String
+    let copyright: String?
     let country: String
     let currency: String
     let releaseDate: String
